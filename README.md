@@ -32,14 +32,14 @@ Start your XWAMP or LAMP servers.
 
 //all test are in ./tests/unit
 
-Before run the app, run unit test command from laravel folder. 
+Before run the app, run unit test command from project folder. 
 
 ```bash
 ./vendor/bin/phpunit
 ```
 If tests are running perfectly without error then application is ready
 
-
+I am running server on : http://localhost/
 # Requirement 1
 
 Visit the following Requirement 1 URLs and get meaningful JSON output from them:
