@@ -26,6 +26,20 @@ http://rapidsol.blogspot.com/2015/03/download-composerphar.html
 ## Give write permissions to cache and log  
 \storage directory must be writeable and \bootstrap\cache must be writeable
 
+
+# Unit Testing 
+Start your XWAMP or LAMP servers.
+
+//all test are in ./tests/unit
+
+Before run the app, run unit test command from laravel folder. 
+
+```bash
+./vendor/bin/phpunit
+```
+If tests are running perfectly without error then application is ready
+
+
 # Requirement 1
 
 Visit the following Requirement 1 URLs and get meaningful JSON output from them:
