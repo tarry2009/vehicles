@@ -7,7 +7,7 @@ You must have installed LAMP (Linux Apache Mysql PHP) or XAMPP server
 Apache rewrite module must be enable.
 Just clone the project in in your www or htdocs directory.
 ```bash
-git clone https://github.com/tarry2009/Modus-Create-PHP-API-Development.git
+git clone https://github.com/tarry2009/vehicles.git
 
 ```
 
