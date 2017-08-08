@@ -21,12 +21,12 @@ composer install
 Composer detail:
 http://rapidsol.blogspot.com/2015/03/download-composerphar.html
 
-```
+ 
 
-#Give write permissions to cache and log  
+## Give write permissions to cache and log  
 storage directory must be writeable
 
-### Requirement 1
+# Requirement 1
 
 Visit the following Requirement 1 URLs and get meaningful JSON output from them:
 
