@@ -36,17 +36,17 @@ Visit the following Requirement 1 URLs and get meaningful JSON output from them:
 * `GET http://localhost/vehicles/undefined/Ford/Fusion`
 
 
-### Requirement 2
+# Requirement 2
 
 Application endpoint:
 
-```
+```bash
 POST http://localhost/vehicles/
 ```
 
 Which, when called with an application/JSON body as follows:
 
-```
+```bash
 {
     "modelYear": 2015,
     "manufacturer": "Audi",
@@ -56,7 +56,7 @@ Which, when called with an application/JSON body as follows:
 
 Respond with precisely the following JSON if there are results:
 
-```
+```bash
 {
     Count: <NUMBER OF RESULTS>,
     Results: [
@@ -81,16 +81,16 @@ Respond with precisely the following JSON if there are results:
 ```
 
 
-### Requirement 3
+# Requirement 3
 
 When the endpoint:
 
-```
+```bash
 GET http://localhost/vehicles/<MODEL YEAR>/<MANUFACTURER>/<MODEL>?withRating=true
 ```
 Respond with precisely the following JSON if there are results:
 
-```
+```bash
 {
     Count: <NUMBER OF RESULTS>,
     Results: [
