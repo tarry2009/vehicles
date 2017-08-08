@@ -12,7 +12,7 @@ git clone https://github.com/tarry2009/vehicles.git
 ```
 
 
-Go into project folder
+# Go into project folder and rename the x.env to .env
 Then you can install all dependencies via Composer by running this command:
 ```bash
 composer install
