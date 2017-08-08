@@ -24,7 +24,7 @@ http://rapidsol.blogspot.com/2015/03/download-composerphar.html
  
 
 ## Give write permissions to cache and log  
-storage directory must be writeable
+\storage directory must be writeable and \bootstrap\cache must be writeable
 
 # Requirement 1
 
