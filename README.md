@@ -56,6 +56,11 @@ Application endpoint:
 
 ```bash
 POST http://localhost/vehicles/
+
+//It will not work if you put all the files in vehicles directory
+//if you want workable http://localhost/vehicles with post 
+// you have to move all project files into your www or htdocs folder
+POST http://localhost/vehicles
 ```
 
 Which, when called with an application/JSON body as follows:
